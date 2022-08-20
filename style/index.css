@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #171717;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 70px;
+
+}
+
+h1{
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right: 55px;
+    list-style: none;
+}
+
+/* First Section */
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 70px;
+}
+
+.first .right{
+    width: 250px;
+    height: 250px;
+}
+
+.first .right img{
+    width: 100%;
+}
+
+.first .left p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+}
+
+.first .left h6{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+/* Gray 3 */
+
+color: #828282;
+}
+
+.first .left .button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 51%;
+    margin-top: 10px;
+}
+
+.first .left .button-container .button-one{
+    background-color: #27AE60;
+    padding: 5px 15px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    border: 1px solid #27AE60;
+}
+
+.first .left .button-container .button-two{
+    border: 1px solid white;
+    padding: 5px 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+
+
+}
+
+/*About SEction*/
+
+.about-section h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 62px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-section p{
+    text-align: center;
+    width: 45%;
+    height: 136px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.about-section .icon-container{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 70px;
+    
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.icon .image{
+    width: 50px;
+    height: 50px;
+}
+
+.icon .image img{
+    width: 100%;
+}
+
+.icon h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.icon p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 23px;
+    
+    
+}
+
+/*What i do Section*/
+
+.what-Section h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 62px;
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin:  auto;
+    padding-top: 70px;
+    
+    
+}
+
+.box-one{
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.image p{
+    color: #4F4F4F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+}
+
+
+/*Skill Section*/
+
+
+.skill-section h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 62px;
+    text-align: center;
+    padding: 40px;
+}
+
+.skill-container{
+    border: 1px solid #333333;
+    background: #212121;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 450px;
+    padding: 10px;
+
+    
+    
+}
+
+.container h2{
+    color: #4F4F4F;
+    
+}
+
+
+.container p{
+    color: #27AE60;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding-top: 30px;
+    display: inline-flex;
+}
+
+
+
+
+/*Get in touch Section*/
+
+
+.touch-section h3{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 62px;
+    text-align: center;
+    padding: 70px;
+}
+
+.form-container input{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    padding-bottom: 5px;
+    width: 250px;
+
+    display: flex;
+    margin: 0 auto;    
+}
+
+.msg-box input{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 30px 40px;
+    display: flex;
+    margin: 20px auto;
+    text-align: left;
+    
+    
+    
+}
+
+.msg-box{
+    display: flex;
+    margin: 0 auto;
+    
+    
+}
+
+button{
+    border: none;
+    background-color: #27AE60;
+    padding: 7px;
+    color: white;
+    border-radius: 7px;
+
+    display: flex;
+    margin: 0 auto;
+}
